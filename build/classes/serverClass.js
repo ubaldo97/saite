@@ -28,7 +28,7 @@ class Server {
         this.routes();
     }
     config() {
-        const MongoURL = 'mongodb://localhost:27017/ttp1';
+        const MongoURL = 'mongodb://148.204.142.20/saite:27017/ttp1';
         mongoose_1.default.set('useFindAndModify', true);
         mongoose_1.default.connect(MongoURL, {
             useNewUrlParser: true,
